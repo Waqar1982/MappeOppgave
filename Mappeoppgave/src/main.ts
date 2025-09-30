@@ -1,4 +1,4 @@
 import { App } from "./app";
-import { Hello } from "./Comp/Hello";
+import { FilesAndFolders } from "./Comp/FilesAndFolders";
+customElements.define ("files-and-folders", FilesAndFolders)
 customElements.define ("app-main", App)
-customElements.define ("app-hello", Hello)
