@@ -1,6 +1,7 @@
 import { BaseComponent } from "./Comp/baseComponent";
 export class App extends BaseComponent {
-    
+    private state: AppState = {
+    }; // Sjekk koden til terje gjør om model til type og appstate
     render () {
         this.shadowRoot!.innerHTML = /*HTML*/`
         <h1>Hello World</h1>
