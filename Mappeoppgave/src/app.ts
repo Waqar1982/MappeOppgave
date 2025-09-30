@@ -2,9 +2,6 @@ import { BaseComponent } from "./Comp/baseComponent";
 import type { FilesAndFolders } from "./Comp/FilesAndFolders";
 import type { AppState } from "./types";
 export class App extends BaseComponent {
-<<<<<<< HEAD
-<<<<<<< HEAD
-
     private state: AppState = {
         filesAndFolders: [
             { id: 1, name: 'Handlelister' },
@@ -16,14 +13,6 @@ export class App extends BaseComponent {
         ],
     };
     
-=======
-    private state: AppState = {
-    }; // Sjekk koden til terje gjør om model til type og appstate
->>>>>>> d8f91f980054d1ae0ff59b22f5bdb236c4c6dd79
-=======
-    private state: AppState = {
-    }; // Sjekk koden til terje gjør om model til type og appstate
->>>>>>> d8f91f980054d1ae0ff59b22f5bdb236c4c6dd79
     render () {
         this.shadowRoot!.innerHTML = /*HTML*/`
             <files-and-folders></files-and-folders>
